@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<link href="../public/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1 class="title"></h1>
+		</header>
+		<div class="wrapper_inscription">
+			<form method="post" class="form" action="home.html"novalidate>
+				<div class="field">
+					<label for='email' class="field_label"> Adresse e-mail </label>
+					<input type='email' class='field_input' id='email' placeholder='mail@provider.com' pattern="[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}" required />
+					<span class="error" id='errormail'></span>
+					<br>
+				</div>
+				<div class="field">
+					<label for='Mot_De_Passe' class="field_label "> Mot de passe </label>
+					<input type='password' class="field_input" id='password1' placeholder='password'  pattern="[A-z0-9]{6,8}" required />
+					<span class="error" id='errormdp'></span>
+				</div>
+				<button type="submit" class="button" id='Connection'> Connection </button>
+				<span class=" field field_label2" id='msgconf'></span>
+			</form>
+			<div class="nav">
+				<a class="nav-link nav2" href="mdpForget.html">J'ai oublié mon mot de passe</a>
+				<a class="nav-link " href="inscription.html">Pas encore de compte? Inscrivez-vous !</a>
+			</div>
+		</div>
+		<script src="../public/loginForm.js"></script>
+	</body>
+</html>
