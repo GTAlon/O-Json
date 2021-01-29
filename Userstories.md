@@ -43,19 +43,19 @@
  
 # 6) Recruteur
 
-   - En tant que recruteur, je souhaite cliquer sur un candidat affiché afin d’observer son CV en détail
+   - En tant que recruteur, je souhaite cliquer sur un candidat affiché afin d’observer son CV en détail.
   
-      - En tant que recruteur, je souhaite également lui proposer un entretien ou un message afin d’interagir avec le candidat
+      - En tant que recruteur, je souhaite également lui proposer un entretien ou un message afin d’interagir avec le candidat.
     
-   - En tant que recruteur, je souhaite filtrer les candidats en fonction de leur compétence/formation/hobbies afin d’afficher les candidats qui respectent ces conditions . 
+   - En tant que recruteur, je souhaite filtrer les candidats en fonction de leur compétence/formation/hobbies afin d’afficher les candidats qui respectent ces conditions. . 
    
    - En tant que recruteur, je souhaite signaler les candidats ayant une candidature hors-charte afin que le site s'affranchisse des éléments hors-charte.
    
  # 7) Modérer
  
- - En tant que modérateur, je souhaite supprimer les candidatures signalées choquantes (après vérification) afin de s'assurer à ce que le site soit sûr
+ - En tant que modérateur, je souhaite supprimer les candidatures signalées choquantes (après vérification) afin de s'assurer à ce que le site soit sûr.
  
- - En tant que modérateur, je souhaite supprimer les comptes des candidats/recruteurs inactifs afin de libérer de la bande passante
+ - En tant que modérateur, je souhaite supprimer les comptes des candidats/recruteurs inactifs afin de libérer de la bande passante.
  
- - En tant que modérateur, je souhaite supprimer les comptes des candidats/recruteurs hors-charte afin de faire de cette plateforme, un espace sain
+ - En tant que modérateur, je souhaite supprimer les comptes des candidats/recruteurs hors-charte afin de faire de cette plateforme, un espace sain.
    
