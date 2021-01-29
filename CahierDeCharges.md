@@ -118,10 +118,10 @@ Les ressources humaines représentent :
 -	Les formations en ligne (Openclassroom, Udemy, Youtube)                                                                                                         
 
  # 7.3. Sites internet :                                                                                                                      
--	https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre- site-web-avec-html5-et-css3
+-	https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
 -	https://php.developpez.com/
 -	https://www.cours-gratuit.com/cours-developpement-web
--	http://www.misfu.com/cours/tutoriel/php-les-classes-formulaires-et-base- de-donnees-2831.html
+-	http://www.misfu.com/cours/tutoriel/php-les-classes-formulaires-et-base-de-donnees-2831.html
 -	https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4
 -	https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript
 
