@@ -62,12 +62,13 @@ Ce sont les éléments de l'application qu’on voit à l’écran avec lesquell
 C’est la partie qu’on ne voit pas de l'application, elle est constituée d’un serveur pour l’hébergement et d’une base de données.
 
 5.2. La mise en œuvre :                                                               
-Dans cette étape on détermine :
-a.Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :                                                                                                                                        
+Dans cette étape on détermine :  
+
+a.Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :                                                                                                                                                                
 •	Le front-end : HTML, CSS, JavaScript (Bootstrap)                                     
 •	Le back-end : JAVA JEE, MySQL et JSON                                                
 
-b.	La documentation du projet à réaliser : cahier des charges, manuel d’utilisation…
+b.	La documentation du projet à réaliser :                                                                                                                                     Cahier des charges, manuel d’utilisation...
 
 5.3. La conception de l’application web :                                                                                                                 
 Cette étape est plus technique, elle se constitue du codage de l’interface visuelle (HTML, CSS, JavaScript) et de la liaison au serveur et la base de données qui seront préalablement créés.
