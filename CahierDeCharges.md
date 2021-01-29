@@ -3,22 +3,22 @@
      Projet de Génie Logiciel sur une plateforme candidat/recruteur pour un emploi:
 2020 et 2021 sont des années difficiles pour la recherche d’emploi dans l’informatique pour un stage, une alternance, un CDI ou un CDD. Il existe une multitude de site de recrutements et pourtant, peu sont concluants. Donnons aux chercheurs d’emploi l’opportunité de retrouver un emploi simplement et facilitons la recherche de profils informatiques pour les chargés de recrutement en IT.
 
-Maîtrise d’œuvre:                                
+          Maîtrise d’œuvre:                                
 •	Talon Gerryl
 •	Idja Yasmina
 •	Piotrowski Martin
 •	Valleix Abel
 •	Ban Régis
 
-Maîtrise d’ouvrage :         
+         Maîtrise d’ouvrage :         
 •Proffesseur référant :  Mr.Vincent Boutour
 
 
 
-1.Projet O'Json:
+          1.Projet O'Json:
 Ce projet est réalisé dans le cadre de la deuxième partie de la L3 Miage à l’université de Paris. Notre objectif est de concevoir une application web permettant de faciliter la recherche d’emploi  dans l’informatique ainsi que le recrutement de l’employé idéal pour les chargés de recrutement dans l’IT .Ce projet nous permettra de renforcer notre savoir en informatique tout en apprenant de nouvelles connaissances dans le domaine du web et la programmation informatique.
 
-2.Les objectifs :
+           2.Les objectifs :
 L'application web de gestion de bibliothèque devra permettre à l'utilisateur ;de connecter à l'application en tant que recruteur ou chercheur d’emploi ,renseigner son CV (Candidat) (identité, travail, compétences)
 ,modifier les données du CV JSON (Candidat)
 ,afficher les données de son CV (Candidat)
@@ -27,9 +27,9 @@ L'application web de gestion de bibliothèque devra permettre à l'utilisateur ;
 ,contacter l’auteur du CV pour un rendez-vous (Recruteur).
 ,convertir les données du formulaire en JSON Resume
 
-3.Fonction du produit :
+            3.Fonction du produit :
 
-3.1.Gestion d’accès à l’application :
+3.1.Gestion d’accès à l’application :                     
 Fournir à l'utilisateur un moyen de s'enregistrer (un formulaire d'inscription lui sera mis à disposition) et par la suite s'identifier afin d'accéder à l'application web.
 
 3.2.Gestion du CV (candidat):                                       
@@ -42,14 +42,14 @@ affichage des détails du CV (Consulté, vu ou pas)
 Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats : supprimer un CV
 ,consulter un CV,contacter un candidat,et rechercher des candidats selon les critères de compétence
 
-4. Critères d’acceptabilité et de réception de l'application:
+              4. Critères d’acceptabilité et de réception de l'application:
 1.Simplicité de l'application :                         
 C'est-à-dire ,une vision claire de l'application web, son accessibilité à travers les différents navigateurs,une navigation conforme et un design intuitif facilitant son utilisation.
 
 2.Efficacité et fonctionnalité :                      
 Fournir une interaction rapide avec l'utilisateur avec une facilité d'accès aux éléments de l'application web,et une responsivité aux requetes de l'utilisateur.
 
-5.	Déroulement du projet :
+             5.Déroulement du projet :
 5.1.Analyse du projet et ses étapes :
 Dans cette étape les membres du groupe font connaissance et déterminent le
 contenu et l’objectif de l'application web à réaliser et les composantes de cette appli(la gestion d’un Jobboard):
@@ -59,48 +59,47 @@ Ce sont les éléments de l'application qu’on voit à l’écran avec lesquell
 •	Le back-end :
 C’est la partie qu’on ne voit pas de l'application, elle est constituée d’un serveur pour l’hébergement et d’une base de données.
 
-5.2.La mise en œuvre :
+5.2.La mise en œuvre :                                                               
 Dans cette étape on détermine :
-a.	Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :
-•	Le front-end : HTML, CSS, JavaScript (Bootstrap) 
-•	Le back-end : JAVA JEE, MySQL et JSON
+a.Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :                                                                                                                                        
+•	Le front-end : HTML, CSS, JavaScript (Bootstrap)                                     
+•	Le back-end : JAVA JEE, MySQL et JSON                                                
 
-b.	La documentation du projet à réaliser : cahier des charges, 
-manuel d’utilisation…
+b.	La documentation du projet à réaliser : cahier des charges, manuel d’utilisation…
 
-5.3.La conception de l’application web :
+5.3.La conception de l’application web :                                                                                                                 
 Cette étape est plus technique, elle se constitue du codage de l’interface visuelle (HTML, CSS, JavaScript) et de la liaison au serveur et la base de données qui seront préalablement créés.
-
-5.4.Contrôle de qualité :
+ 
+5.4.Contrôle de qualité :                                                                                                                                                                                  
 Une fois l’étape de programmation terminée, on débute la phase de contrôle. Cela consiste à s’assurer que l'application fonctionne sur tous les navigateurs et répond aux différentes requêtes, et à vérifier que tous les liens de l'application soient fonctionnels et que le formulaire envoi correctement les données qui seront par la suite enregistrées dans la base.
 
-5.5.La soutenance du projet :
+5.5.La soutenance du projet :                                                                                                                                         
 Cette étape est la dernière dans la conception du projet et elle constitue la présentation de notre application web et de ses fonctionnalités devant les jurys de l’Université de Paris (ex Descartes).
 
-6.Contraintes :
-6.1.	Contraintes de délais :
+                 6.Contraintes :
+6.1.	Contraintes de délais :                                                                                                                                              
 Notre objectif est de rendre notre projet avant la semaine de pré-soutenance c’est-à-dire avant la semaine du 15/03/2021 ainsi que l’ensemble des documents demandés aux dates prévues à cela :
 -Cahier des charges : Semaine du 25/01/2020,
 -Documentation interne du code, le code source du programme, le rapport de projet : Semaine du 07/03/2021.
 
 
-6.2.Contraintes d'organisation:
+6.2.Contraintes d'organisation:                                                                          
 Le contexte sanitaire actuel ainsi que le confinement ne nous permet pas de nous réunir afin de suivre l'avancée de chacun dans le projet et de bien se coordonner et s'organiser.
 
-7.Les ressources :
+                7.Les ressources :
 Voici les principales ressources qui vont nous permettre d'atteindre nos objectifs dans ce projet et de passer outre ses difficultés et contraintes.
--Humaines :
-Les ressources humaines représentent :
-•	Notre groupe de cinq étudiants,
-•	Notre enseignant de référence 
+-Humaines :                                                                                         
+Les ressources humaines représentent :                                                                                       
+•	Notre groupe de cinq étudiants               
+•	Notre enseignant de référence                               
 •	Nos professeurs de cours et de travaux dirigés qui répondent à toutes nos questions.
 
--Matérielles :
-•	Cinq ordinateurs portables/fixes
-•	Les supports de cours
-•	Les formations en ligne (Openclassroom, Udemy, Youtube)
+-Matérielles :                                                                                           
+•	Cinq ordinateurs portables/fixes                                                                                   
+•	Les supports de cours                                                                                                                                                
+•	Les formations en ligne (Openclassroom, Udemy, Youtube)                                                                                                         
 
--Sites internet :
+-Sites internet :                                                                                                                      
 •	https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre- site-web-avec-html5-et-css3
 •	https://php.developpez.com/
 •	https://www.cours-gratuit.com/cours-developpement-web
