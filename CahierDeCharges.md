@@ -19,13 +19,14 @@
 Ce projet est réalisé dans le cadre de la deuxième partie de la L3 Miage à l’université de Paris. Notre objectif est de concevoir une application web permettant de faciliter la recherche d’emploi  dans l’informatique ainsi que le recrutement de l’employé idéal pour les chargés de recrutement dans l’IT .Ce projet nous permettra de renforcer notre savoir en informatique tout en apprenant de nouvelles connaissances dans le domaine du web et la programmation informatique.
 
            2.Les objectifs :
-L'application web de gestion de bibliothèque devra permettre à l'utilisateur ;de connecter à l'application en tant que recruteur ou chercheur d’emploi ,renseigner son CV (Candidat) (identité, travail, compétences)
-,modifier les données du CV JSON (Candidat)
-,afficher les données de son CV (Candidat)
-,supprimer le CV (Candidat et recruteur).
-,chercher, consulter le CV (Recruteur)
-,contacter l’auteur du CV pour un rendez-vous (Recruteur).
-,convertir les données du formulaire en JSON Resume
+L'application web de gestion de bibliothèque devra permettre à l'utilisateur de:                                                                                               
+-Se connecter à l'application en tant que recruteur ou chercheur d’emploi ,renseigner son CV (Candidat) (identité, travail, compétences)                                       
+-Modifier les données du CV JSON (Candidat)                      
+-Afficher les données de son CV (Candidat)                       
+-Supprimer le CV (Candidat et recruteur)                                   
+-Chercher, consulter le CV (Recruteur)                           
+-Contacter l’auteur du CV pour un rendez-vous (Recruteur).                      
+-Convertir les données du formulaire en JSON Resume                                  
 
             3.Fonction du produit :
 
@@ -33,26 +34,27 @@ L'application web de gestion de bibliothèque devra permettre à l'utilisateur ;
 Fournir à l'utilisateur un moyen de s'enregistrer (un formulaire d'inscription lui sera mis à disposition) et par la suite s'identifier afin d'accéder à l'application web.
 
 3.2.Gestion du CV (candidat):                                       
-Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature: Ajout et suppression d’un CV,
-affichage des détails du CV (Consulté, vu ou pas)
-, ainsi que la modification des données du CV
+Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature:                                                                    -Ajout et suppression d’un CV                          
+-Affichage des détails du CV (Consulté, vu ou pas)                              
+-Modification des données du CV                                  
  
  
 3.3.Gestion des candidats:                          
-Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats : supprimer un CV
-,consulter un CV,contacter un candidat,et rechercher des candidats selon les critères de compétence
+Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats :                                                                        -Supprimer un CV                            
+-Consulter un CV                                  
+-Contacter un candidat                                 
+-Rechercher des candidats selon les critères de compétence                                          
 
               4. Critères d’acceptabilité et de réception de l'application:
 1.Simplicité de l'application :                         
-C'est-à-dire ,une vision claire de l'application web, son accessibilité à travers les différents navigateurs,une navigation conforme et un design intuitif facilitant son utilisation.
+C'est-à-dire;une vision claire de l'application web, son accessibilité à travers les différents navigateurs, ainssi qu'une navigation conforme et un design intuitif facilitant son utilisation.
 
 2.Efficacité et fonctionnalité :                      
-Fournir une interaction rapide avec l'utilisateur avec une facilité d'accès aux éléments de l'application web,et une responsivité aux requetes de l'utilisateur.
+Fournir une interaction rapide avec l'utilisateur avec une facilité d'accès aux éléments de l'application,et une responsivité aux requetes de l'utilisateur.
 
              5.Déroulement du projet :
-5.1.Analyse du projet et ses étapes :
-Dans cette étape les membres du groupe font connaissance et déterminent le
-contenu et l’objectif de l'application web à réaliser et les composantes de cette appli(la gestion d’un Jobboard):
+5.1.Analyse du projet et ses étapes :                                                          
+Dans cette étape les membres du groupe font connaissance et déterminent le contenu et l’objectif de l'application web à réaliser et les composantes de cette appli(la gestion d’un Jobboard):                                                                                                                                                                         
 •	Le front-end :
 Ce sont les éléments de l'application qu’on voit à l’écran avec lesquelles on interagit depuis un navigateur.
 
