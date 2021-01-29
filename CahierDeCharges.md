@@ -22,13 +22,13 @@ Ce projet est réalisé dans le cadre de la deuxième partie de la L3 Miage à l
            
 L'application web de gestion devra permettre à l'utilisateur de:         
 
--Se connecter à l'application en tant que recruteur ou chercheur d’emploi                                                                                                      -Renseigner son CV (Candidat) (identité, travail, compétences)                                       
--Modifier les données du CV JSON (Candidat)                      
--Afficher les données de son CV (Candidat)                       
--Supprimer le CV (Candidat et recruteur)                                   
--Chercher, consulter le CV (Recruteur)                           
--Contacter l’auteur du CV pour un rendez-vous (Recruteur).                      
--Convertir les données du formulaire en JSON Resume                                  
+- Se connecter à l'application en tant que recruteur ou chercheur d’emploi                                                                                                      - Renseigner son CV (Candidat) (identité, travail, compétences)                                       
+- Modifier les données du CV JSON (Candidat)                      
+- Afficher les données de son CV (Candidat)                       
+- Supprimer le CV (Candidat et recruteur)                                   
+- Chercher, consulter le CV (Recruteur)                           
+- Contacter l’auteur du CV pour un rendez-vous (Recruteur).                      
+- Convertir les données du formulaire en JSON Resume                                  
 
 #   3.Fonctions du produit :
 
@@ -38,18 +38,18 @@ Fournir à l'utilisateur un moyen de s'enregistrer (un formulaire d'inscription 
 # 3.2. Gestion du CV (candidat):                                       
 Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature:       
 
--Ajout et suppression d’un CV                          
--Affichage des détails du CV (Consulté, vu ou pas)                              
--Modification des données du CV                                  
+- Ajout et suppression d’un CV                          
+- Affichage des détails du CV (Consulté, vu ou pas)                              
+- Modification des données du CV                                  
  
  
 # 3.3. Gestion des candidats:                          
 Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats :                                              
 
--Supprimer un CV                            
--Consulter un CV                                  
--Contacter un candidat                                 
--Rechercher des candidats selon les critères de compétence                                          
+- Supprimer un CV                            
+- Consulter un CV                                  
+- Contacter un candidat                                 
+- Rechercher des candidats selon les critères de compétence                                          
 
 # 4. Critères d’acceptabilité et de réception de l'application:
 
@@ -72,11 +72,11 @@ C’est la partie qu’on ne voit pas de l'application, elle est constituée d�
  # 5.2. La mise en œuvre :                                                               
 Dans cette étape on détermine :  
 
-a.Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :                                                                                                                                                                
--	Le front-end : HTML, CSS, JavaScript (Bootstrap)                                     
--	Le back-end : JAVA JEE, MySQL et JSON                                                
+- Les langages de programmation à apprendre et à utiliser pour la conception de l'application web :                                                                                                                                                                
+  -	Le front-end : HTML, CSS, JavaScript (Bootstrap)                                     
+  -	Le back-end : JAVA JEE, MySQL et JSON                                                
 
-b.	La documentation du projet à réaliser :                                                                                                                                     Cahier des charges, manuel d’utilisation...
+-	La documentation du projet à réaliser :                                                                                                                                     Cahier des charges, manuel d’utilisation...
 
  # 5.3. La conception de l’application web :                                                                                                                 
 Cette étape est plus technique, elle se constitue du codage de l’interface visuelle (HTML, CSS, JavaScript) et de la liaison au serveur et la base de données qui seront préalablement créés.
