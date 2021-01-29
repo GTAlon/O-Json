@@ -19,8 +19,8 @@
 Ce projet est réalisé dans le cadre de la deuxième partie de la L3 Miage à l’université de Paris. Notre objectif est de concevoir une application web permettant de faciliter la recherche d’emploi  dans l’informatique ainsi que le recrutement de l’employé idéal pour les chargés de recrutement dans l’IT .Ce projet nous permettra de renforcer notre savoir en informatique tout en apprenant de nouvelles connaissances dans le domaine du web et la programmation informatique.
 
            2.Les objectifs :
-L'application web de gestion de bibliothèque devra permettre à l'utilisateur de:                                                                                               
--Se connecter à l'application en tant que recruteur ou chercheur d’emploi ,renseigner son CV (Candidat) (identité, travail, compétences)                                       
+L'application web de gestion devra permettre à l'utilisateur de:                                                                                               
+-Se connecter à l'application en tant que recruteur ou chercheur d’emploi                                                                                                      -Renseigner son CV (Candidat) (identité, travail, compétences)                                       
 -Modifier les données du CV JSON (Candidat)                      
 -Afficher les données de son CV (Candidat)                       
 -Supprimer le CV (Candidat et recruteur)                                   
@@ -34,20 +34,24 @@ L'application web de gestion de bibliothèque devra permettre à l'utilisateur d
 Fournir à l'utilisateur un moyen de s'enregistrer (un formulaire d'inscription lui sera mis à disposition) et par la suite s'identifier afin d'accéder à l'application web.
 
 3.2. Gestion du CV (candidat):                                       
-Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature:                                                                    -Ajout et suppression d’un CV                          
+Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature:       
+
+-Ajout et suppression d’un CV                          
 -Affichage des détails du CV (Consulté, vu ou pas)                              
 -Modification des données du CV                                  
  
  
 3.3. Gestion des candidats:                          
-Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats :                                                                        -Supprimer un CV                            
+Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion des candidats :                                              
+
+-Supprimer un CV                            
 -Consulter un CV                                  
 -Contacter un candidat                                 
 -Rechercher des candidats selon les critères de compétence                                          
 
               4. Critères d’acceptabilité et de réception de l'application:
 4.1. Simplicité de l'application :                         
-C'est-à-dire;une vision claire de l'application web, son accessibilité à travers les différents navigateurs, ainssi qu'une navigation conforme et un design intuitif facilitant son utilisation.
+C'est-à-dire;une vision claire de l'application web, son accessibilité à travers les différents navigateurs, ainsi qu'une navigation conforme et un design intuitif facilitant son utilisation.
 
 4.2. Efficacité et fonctionnalité :                      
 Fournir une interaction rapide avec l'utilisateur avec une facilité d'accès aux éléments de l'application,et une responsivité aux requetes de l'utilisateur.
@@ -80,10 +84,12 @@ Une fois l’étape de programmation terminée, on débute la phase de contrôle
 Cette étape est la dernière dans la conception du projet et elle constitue la présentation de notre application web et de ses fonctionnalités devant les jurys de l’Université de Paris (ex Descartes).
 
                  6.Contraintes :
-6.1. Contraintes de délais :                                                                                                                                              
-Notre objectif est de rendre notre projet avant la semaine de pré-soutenance c’est-à-dire avant la semaine du 15/03/2021 ainsi que l’ensemble des documents demandés aux dates prévues à cela :
--Cahier des charges : Semaine du 25/01/2020,
--Documentation interne du code, le code source du programme, le rapport de projet : Semaine du 07/03/2021.
+6.1. Contraintes de délais :                                                                                                                                                                                  
+Notre objectif est de rendre notre projet avant la semaine de pré-soutenance c’est-à-dire avant la semaine du 15/03/2021 ainsi que l’ensemble des documents demandés aux dates prévues à cela :                             
+-Cahier des charges : Semaine du 25/01/2020                                                                                            
+-Documentation interne du code :Semaine du 07/03/2021                                             
+-Code source du programme  :Semaine du 07/03/2021                                                                         
+-le rapport de projet : Semaine du 07/03/2021
 
 
 6.2. Contraintes d'organisation:                                                                          
