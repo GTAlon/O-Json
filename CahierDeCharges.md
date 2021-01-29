@@ -11,6 +11,7 @@ Maîtrise d’œuvre:
 •	Ban Régis
 
 Maîtrise d’ouvrage :
+
 •	Proffesseur référant :  Mr.Vincent Boutour
 
 
@@ -21,7 +22,7 @@ Ce projet est réalisé dans le cadre de la deuxième partie de la L3 Miage à l
 2.Les objectifs :
 L'application web de gestion de bibliothèque devra permettre à l'utilisateur de :
 -Se connecter à l'application en tant que recruteur ou chercheur d’emploi
--Renseigner son CV (Candidat) (identité, travail, compétences)
+-Renseigner son CV (Candidat) (identité, travail, compétences);
 -Modifier les données du CV JSON (Candidat)
 -Afficher les données de son CV (Candidat)
 -Supprimer le CV (Candidat et recruteur).
@@ -34,6 +35,7 @@ L'application web de gestion de bibliothèque devra permettre à l'utilisateur d
 Fournir à l'utilisateur un moyen de s'enregistrer (un formulaire d'inscription lui sera mis à disposition) et par la suite s'identifier afin d'accéder à l'application web.
 
 3.2.Gestion du CV (candidat):
+
 Mettre à disposition de l’utilisateur les options suivantes afin de faciliter la gestion de sa candidature:
 •	Ajout et suppression d’un CV
 •	Affichage des détails du CV (Consulté, vu ou pas)
