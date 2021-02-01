@@ -12,7 +12,7 @@
 - Ban Régis                                         
 
 #  Maîtrise d’ouvrage :         
--Professeur référent :  Mr.Vincent Boutour                        
+- Professeur référent :  Mr.Vincent Boutour                        
 
 #  1.Projet O'Json:
 
