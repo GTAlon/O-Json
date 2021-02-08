@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="utf-8">
+           <title>Formulaire CV</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    
+      <div  class="col-sm-12 col-lg-all "  >
+
+           
+        <header>
+                <nav class="navbar navbar-default" style = "background: #54775E; opacity:0.9; " >
+                        <div class="container-fluid" >
+                          <div class="navbar-header"  >                                                
+                              <ul class="nav navbar-nav">
+                                 <li ><input type="image" src="O'JSON.png" width="100" height="65" style="border-radius:10px ;" /><li>
+                                <li ><a href="#"  style ="color : white ;font-weight: bold; font-family:Times New Roman;font-size: 120%;left:1050%; "  >Acceuil </a></li>
+                                <li ><a href="#"  style ="color : white ;font-weight: bold; font-family:Times New Roman;font-size: 120%;left:640%;" >Se déconnecter</a></li>  
+  
+                                              
+                              </ul>
+                        </div>
+                     </div>
+                </nav>
+        </header>
+       <div class="formulaire">
+       <div class="flex-container"> 
+       <h1>Créez votre CV</h1>
+       </div>
+  
+    <form role ="form" id="contactForm" data-toggle="validator" method="POST" onSubmit="validate();">
+	
+  	<fieldset>
+      <h3>Coordonnées</h3>
+      <div class="coordonnees">
+      <label for="Login" class="col-form-label"> Nom : </label><br> 
+      <input type="text" class="form-control" name="name"  id="name"  /><br>  
+      <label for="Login" class="col-form-label"> Prénom : </label><br>
+      <input type="text" class="form-control" name="first name" p id="first name"/><br> 
+	  <label for="email" class="col-form-label" > Adresse éléctronique : </label><br>
+      <input type="email" class="form-control" name="email" id="email"/><br>
+	  <label for="phone" class="col-form-label" > Numéro de téléphone: </label><br>
+	  <input type="phone" class="form-control" name="phone" id="phone"/><br>
+	  <label for="adress" class="col-form-label" > Adresse: </label><br>
+	  <input type="adress" class="form-control" name="adress" id="adress"/><br>
+	  </div>
+	</fieldset>
+	
+    <fieldset>
+      <h3>Formations</h3>
+	  <div class="formations">
+	   <label for="education">Vos formations et diplômes:</label><br>
+       <textarea id="education" name="education" rows="6" cols="65"></textarea>
+       </div>
+	</fieldset> <br>
+	
+	
+	<fieldset>
+      <h3>Expériences proféssionnelles</h3>
+	  <div class="formations">
+	  <label for="works" class="col-form-label" >Vos expériences proféssionnelles:</label><br>
+       <textarea id="works" name="works" rows="6" cols="65"></textarea>
+       </div>
+	</fieldset><br>
+	
+
+     <fieldset>
+      <h3>Langues maitrisées</h3>
+	  <div class="langues">
+	  <input type="checkbox" id="english" name="english" >
+    <label for="english"class="col-form-label"> Anglais</label><br>
+	<input type="checkbox" id="french" name="french" >
+    <label for="franch"class="col-form-label"> Français</label><br>
+	<input type="checkbox" id="spanish" name="spanish" >
+    <label for="spanish"class="col-form-label"> Espagnol</label><br>
+	<input type="checkbox" id="german" name="german" >
+    <label for="german"class="col-form-label"> Allemand</label><br>
+	<label for="languages" class="col-form-label" >Autre langue matrisée?</label><br>
+    <textarea id="languages" name="languages" rows="3" cols="65"></textarea> <br>
+	   </div>
+	  </fieldset>
+	  
+	 
+	<fieldset>
+      <h3>Compétences en informatique</h3>
+	  <div class="competences_it">
+	 <ul> 
+   <li> <h4>Langages de programmation</h4></li>
+	<input type="checkbox" id="python" name="python" >
+    <label for="python"class="col-form-label"> Python</label><br>
+    <input type="checkbox" id="java" name="java">
+    <label for="java" class="col-form-label"> Java</label><br>
+    <input type="checkbox" id="js" name="js" >
+    <label for="js" class="col-form-label">JavaScript</label><br>
+	<input type="checkbox" id="c#" name="c#" >
+    <label for="c# "class="col-form-label"> C# </label><br>
+	<input type="checkbox" id="php" name="php">
+	<label for="php" class="col-form-label"> PHP </label><br>
+	<input type="checkbox" id="c" name="c">
+	<label for="c" class="col-form-label"> Langage C</label><br>
+	<input type="checkbox" id="c++" name="c++" >
+	<label for="c++"class="col-form-label"> C++</label><br>
+	<input type="checkbox" id="r" name="r">
+	<label for="r"class="col-form-label"> R </label><br>
+	<input type="checkbox" id="objc" name="objc" >
+	<label for="objc"class="col-form-label"> Objective-C</label><br>
+	<input type="checkbox" id="swift" name="swift">
+	<label for="swift"class="col-form-label"> Swift</label><br>
+	<input type="checkbox" id="matlab" name="matlab">
+	<label for="matlab"class="col-form-label"> Matlab</label><br>
+	<input type="checkbox" id="html" name="html">
+	<label for="html"class="col-form-label"> HTML</label><br>
+	<input type="checkbox" id="css" name="css">
+	<label for="css"class="col-form-label"> CSS</label><br>
+	<label for="Programming languages" class="col-form-label" >Autre langage?</label><br>
+    <textarea id="Programming languages" name="Programming languages" rows="3" cols="65"></textarea> <br>
+	 
+	 
+	 
+<li><h4>Systémes de gestion de BD</h4></li>
+	   <input type="checkbox" id="oracle" name="oracle">
+	   <label for="oracle"class="col-form-label"> Oracle</label><br>
+	   <input type="checkbox" id="mysql" name="mysql">
+	   <label for="mysql"class="col-form-label"> MySQL</label><br>
+	   <input type="checkbox" id="psql" name="psql">
+	   <label for="psql"class="col-form-label"> Postgre SQL</label><br>
+	   <input type="checkbox" id="db2" name="db2">
+	   <label for="db2"class="col-form-label"> DB2</label><br>
+	   <input type="checkbox" id="mdb" name="mdb">
+	   <label for="mdb"class="col-form-label"> MangoDB</label><br>
+	   <input type="checkbox" id="cassandra" name="cassandra">
+	   <label for="cassandra"class="col-form-label"> Cassandra</label><br>
+	   <label for="sgbd" class="col-form-label" >Autre SGBD?</label><br>
+       <textarea id="sgbd" name="sgbd" rows="3" cols="30"></textarea> <br>
+	   
+	 <li>  <h4>Systémes d'exploitation</h4></li>
+	   <input type="checkbox" id="linux" name="linux">
+	   <label for="linux"class="col-form-label"> Linux</label><br>
+	   <input type="checkbox" id="windows" name="windows">
+	   <label for="windows"class="col-form-label"> Windows</label><br>
+	   <input type="checkbox" id="osx" name="osx">
+	   <label for="osx"class="col-form-label"> OS X</label><br>
+	   </ul>
+	  
+	  </div>
+	</fieldset>
+	
+	
+	
+	<fieldset>
+	   <h3>Compétences et qualités </h3>
+	    <div class="competences">
+	  <label for="skills" class="col-form-label" >Vos compétences et qualités:</label><br>
+       <textarea id="skills" name="skills" rows="4" cols="65"></textarea>
+       </div>
+	</fieldset><br>
+	
+	<fieldset>
+	   <h3>Centres d'intérêt</h3>
+	    <div class="loisirs">
+	  <label for="hobbies" class="col-form-label" >Vos centre d'intérêt et loisirs:</label><br>
+       <textarea id="hobbies" name="hobbies" rows="4" cols="65"></textarea>
+       </div>
+	</fieldset><br>
+
+		<fieldset>
+	   <h3>Autre chose à ajouter?</h3>
+	    <div class="bonus">
+       <textarea id="bonus" name="bonus" rows="4" cols="65"></textarea>
+       </div>
+	   </fieldset>
+	   
+	</div>
+	</div>
+	
+	<div class="mbr-section-btn align-left"><button type="button" class="btn btn-danger" style="margin-left:47%; margin-top:1%;"> Valider </button>
+	</div>
+	
+	  
+	 
+	
+	    
+     	
+     	  
+	  
+</body>
+</html>
