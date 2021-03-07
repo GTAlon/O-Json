@@ -1,16 +1,17 @@
 extends layout
 
 block dynamicContent
-  h2 Login
+  h2 Connexion à O'JSON
   if info
     p= info
-
-  form(method="post" action="/login/send")
-    p
-      label Votre nom
+  .connexion
+    input(type='image' src="O'JSON.png" width='280' height='280')
+    form(method="post" action="/login/send")
+     p
+      label Votre nom:
       input(type="text" name="username")
-    p
-      label Votre mot de passe
+     p
+      label Votre mot de passe:
       input(type="password" name="password")
-    p
+     p
       input(type="submit" value="Envoyer")

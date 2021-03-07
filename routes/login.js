@@ -30,8 +30,8 @@ router.post('/send', (req, res) => {
   else {
     resultMessage = 'L\'identifiant ou le mot de pass sont incorect';
   }
-  res.render('login', {
-    title: 'Login',
+  res.render('layout', {
+    title: 'layout',
     info: resultMessage
   });
 });

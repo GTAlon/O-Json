@@ -22,5 +22,25 @@
     "formation": "toto",
     "formation1": "tata",
     "formation2": "titit"
+  },
+  {
+    "id": 1,
+    "nom": "Yas",
+    "prenom": "mina",
+    "age": "17",
+    "adresse": "SRGXF",
+    "mail": "",
+    "numero": "",
+    "formations": [
+      {
+        "formation": ""
+      },
+      {
+        "formation1": ""
+      },
+      {
+        "formation2": ""
+      }
+    ]
   }
 ]

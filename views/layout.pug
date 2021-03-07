@@ -2,36 +2,36 @@ html
   head
     title=title
     link(rel="stylesheet" href="/style.css")
-  body
-    .container
-      header
+  header
         h1 O'Json - #{title}
         if username
           span Connecté en tant que #{username}
             a(href="/login/logout") (Déconnexion)
         else
-          span Pas connecté
+          span Non connecté   
+  body
       nav
         ul
           li
-            a(href="/") Accueil  
+            a.Accueil(href="/") Accueil  
           li           
           if username        
-            a(href="/projects") CV          
+            a.Accueil(href="/projects") CV          
           li
           if username        
-            a(href="/formulaire") Formulaire         
+            a.Accueil(href="/formulaire") Formulaire         
           li
           if !username
-            a(href="/contact") Inscription Candidat
+            a.Accueil(href="/contact") Inscription Candidat
           li 
           if !username
-            a(href="/contact") Inscription Recruteur
+            a.Accueil(href="/contactRecruteur") Inscription Recruteur
           if !username
             li
-              a(href="/login") Login
-
+              a.Accueil(href="/login") Connexion
+      h1 Bienvenue sur O'JSON,le meilleur Jobboard IT! 
+      br
       .content
         block dynamicContent
 
-      footer Projet GL pas du tout fini
+      footer © O'Json 2021. All Rights Reserved.

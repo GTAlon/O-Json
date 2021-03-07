@@ -20,9 +20,9 @@ router.post('/send', (req, res) => {
 
 
 	var name = req.body.nom;
-	var order = 0
+	var mdp = req.body.mdp
 	
-	var employee = {"username":name,"order_count":order,"password":"123456"}
+	var employee = {"username":name,"password":mdp}
 		
 
 	fs.readFile(__dirname + '/../users.json', function (err, data) {

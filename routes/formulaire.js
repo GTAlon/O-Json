@@ -27,16 +27,16 @@ router.post('/send', (req, res) => {
 
 
 
-    const customer = {"id": 1,"nom": name,"prenom": prenom,"age" : age,"adresse" : adresse,"mail" : mail,"numero" : num,"formations" : [{"formation": forma},{"formation1": forma1},{"formation2": forma2}]}
+    const customer = {"id": 1,"nom": name,"prenom": prenom,"age" : age,"adresse" : adresse,"mail" : mail,"numero" : num,"formation": forma,"formation1": forma1,"formation2": forma2}
 
 
 
      const jsonString = JSON.stringify(customer, null, 2)
 
-     fs.readFile(__dirname + '/../projects.json', function (err, data) {
+     fs.readFile(dirname + '/../projects.json', function (err, data) {
       var json = JSON.parse(data);
-      json.push(customer);    
-      fs.writeFile(__dirname + '/../projects.json', JSON.stringify(json, null, 2), function(err){
+      json.push(customer);
+      fs.writeFile(dirname + '/../projects.json', JSON.stringify(json, null, 2), function(err){
         if (err) throw err;
         console.log('The "data to append" was appended to file!');
       });
