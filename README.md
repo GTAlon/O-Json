@@ -13,7 +13,6 @@ Avant d'installer le projet, assurez-vous d'avoir installé les logiciels ci-des
 - Node.Js
 - Visual Studio Express
 
-### Installation
 
 ## Démarrage
 
