@@ -39,6 +39,6 @@ Avant d'installer le projet, assurez-vous d'avoir installé les logiciels ci-des
 
 * **Gerryl**
 * **Martin** 
-* **Abel*
+* **Abel**
 * **Yasmina**
 * **Régis**
