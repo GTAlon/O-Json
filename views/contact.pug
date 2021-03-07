@@ -1,0 +1,19 @@
+extends layout
+
+block dynamicContent
+  h2 Inscription candidat
+  if status
+    p
+      strong Message envoyé
+  form(method="post", action="/contact/send")
+    p
+      label Votre Nom
+      input(type="text", name="nom")
+    p
+      label Votre Mot de Passe
+      input(id="mdp" type="text", name="MDP")
+    p
+      label Confimer votre Mot de Passe
+      input(id="confirm_mdp" type="text", name="ConfirmMDP")
+    p
+      input(type="submit", value="Envoyer")

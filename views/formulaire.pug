@@ -1,0 +1,36 @@
+extends layout
+
+block dynamicContent
+  h2 Formulaire
+  if status
+    p
+      strong Message envoyé
+  form(method="post", action="/formulaire/send")
+    p
+      label Votre nom
+      input(type="text", name="nom")
+    p
+      label Votre prenom
+      input(type="text", name="prenom")
+    p
+      label Votre âge
+      input(type="text", name="age")
+    p
+      label Votre adresse
+      input(type="text", name="adresse")
+    p
+      label Votre adresse mail
+      input(type="text", name="email")
+    p
+      label Votre Numero de tel
+      input(type="text", name="numero")
+    p
+      label Vos formations
+    p
+      input(type="text", name="formation")
+    p
+      input(type="text", name="formation1")
+    p
+      input(type="text", name="formation2")
+    p
+      input(type="submit", value="Envoyer")

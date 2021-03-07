@@ -1,0 +1,37 @@
+html
+  head
+    title=title
+    link(rel="stylesheet" href="/style.css")
+  body
+    .container
+      header
+        h1 O'Json - #{title}
+        if username
+          span Connecté en tant que #{username}
+            a(href="/login/logout") (Déconnexion)
+        else
+          span Pas connecté
+      nav
+        ul
+          li
+            a(href="/") Accueil  
+          li           
+          if username        
+            a(href="/projects") CV          
+          li
+          if username        
+            a(href="/formulaire") Formulaire         
+          li
+          if !username
+            a(href="/contact") Inscription Candidat
+          li 
+          if !username
+            a(href="/contact") Inscription Recruteur
+          if !username
+            li
+              a(href="/login") Login
+
+      .content
+        block dynamicContent
+
+      footer Projet GL pas du tout fini
