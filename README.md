@@ -1,5 +1,3 @@
-# Récapitulatif du cours Semaine du 20 Janvier 2020
-
 ## Notions théoriques
 
 ### Quelques mots sur Javascript
