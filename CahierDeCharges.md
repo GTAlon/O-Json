@@ -78,7 +78,8 @@ Dans cette étape on détermine :
   -	Le back-end : JavaScript et JSON                                                
   - La documentation du projet à réaliser : Cahier des charges, manuel d’utilisation.
 
-## 5.3. La conception de l’application web :                                                                                                                 
+## 5.3. La conception de l’application web :  
+
  Cette étape est plus technique, elle se constitue du codage de l’interface visuelle (HTML, CSS, JavaScript) et de la liaison au serveur et la base de données qui  seront préalablement créés.
 
 ## 5.4. Contrôle de qualité :                                                                                                                                                                                 
@@ -92,10 +93,10 @@ Cette étape est la dernière dans la conception du projet et elle constitue la 
 ## 6.1. Contraintes de délais :                                                                                                                                                                                  
 Notre objectif est de rendre notre projet avant la semaine de pré-soutenance c’est-à-dire avant la semaine du 08/03/2021 ainsi que l’ensemble des documents demandés aux dates prévues à cela : 
 
-	- Cahier des charges : Semaine du 25/01/2020                                                                                            
-	- Documentation interne du code : Semaine du 07/03/2021                                             
-	- Code source du programme  : Semaine du 07/03/2021                                                                         
-	- Le rapport de projet : Semaine du 07/03/2021
+- Cahier des charges : Semaine du 25/01/2020                                                                                            
+- Documentation interne du code : Semaine du 07/03/2021                                             
+- Code source du programme  : Semaine du 07/03/2021                                                                         
+- Le rapport de projet : Semaine du 07/03/2021
 
 ## 6.2. Contraintes d'organisation: 
                                                                          
@@ -110,20 +111,21 @@ Voici les principales ressources qui vont nous permettre d'atteindre nos objecti
 
 Les ressources humaines représentent : 
 
-	- Notre groupe de cinq étudiants               
-    - Notre enseignant de référence                               
-	- Nos professeurs de cours et de travaux dirigés qui répondent à toutes nos questions.
+- Notre groupe de cinq étudiants               
+- Notre enseignant de référence                               
+- Nos professeurs de cours et de travaux dirigés qui répondent à toutes nos questions.
 
 ## 7.2. Matériels :  
 
-	- Cinq ordinateurs portables/fixes                                                                                   
-	- Les supports de cours                          
-	- Les formations en ligne (Openclassroom, Udemy, Youtube)                                                                                                         
+- Cinq ordinateurs portables/fixes                                                                                   
+- Les supports de cours                          
+- Les formations en ligne (Openclassroom, Udemy, Youtube)                                                                                                         
 
-## 7.3. Sites internet :                                                                                                                      
-	- https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
-	- https://php.developpez.com/
-	- https://www.cours-gratuit.com/cours-developpement-web
-	- http://www.misfu.com/cours/tutoriel/php-les-classes-formulaires-et-base-de-donnees-2831.html
-	- https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4
-	- https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript
+## 7.3. Sites internet :    
+
+- https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3
+- https://php.developpez.com/
+- https://www.cours-gratuit.com/cours-developpement-web
+- http://www.misfu.com/cours/tutoriel/php-les-classes-formulaires-et-base-de-donnees-2831.html
+- https://openclassrooms.com/fr/courses/6391096-creez-des-sites-web-responsive-avec-bootstrap-4
+- https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript
