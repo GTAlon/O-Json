@@ -33,15 +33,14 @@ router.post('/send', (req, res) => {
 
      const jsonString = JSON.stringify(customer, null, 2)
 
-     fs.readFile(dirname + '/../projects.json', function (err, data) {
+     fs.readFile(__dirname + '/../projects.json', function (err, data) {
       var json = JSON.parse(data);
       json.push(customer);
-      fs.writeFile(dirname + '/../projects.json', JSON.stringify(json, null, 2), function(err){
+      fs.writeFile(__dirname + '/../projects.json', JSON.stringify(json, null, 2), function(err){
         if (err) throw err;
         console.log('The "data to append" was appended to file!');
       });
     })
-
     //console.log(req.body);
     res.redirect('/contact?status=sent');
 });
